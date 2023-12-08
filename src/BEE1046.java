@@ -10,7 +10,7 @@ public class BEE1046 {
             System.out.println("O JOGO DUROU " + (24-(Hi-Hf))+ " HORA(S)");
 
         } else if (Hf>Hi) {
-            System.out.println("O JOGO DUROU " + (Hi-Hf)+ " HORA(S)");
+            System.out.println("O JOGO DUROU " + (Hf-Hi)+ " HORA(S)");
         }else
             System.out.println("O JOGO DUROU 24 HORA(S)");
 
